@@ -11,18 +11,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Escolha do app"
+        android:text="@string/escolha_do_app"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageOpcaoApp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
+        android:contentDescription="@string/opcao_app"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/padrao" />
@@ -35,38 +37,50 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageOpcaoApp" />
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <ImageButton
+        android:id="@+id/btnOpcaoPedra"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginTop="36dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:contentDescription="@string/imagem_opcap_pedra"
+        android:onClick="jogar"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/btnOpcaoPapel"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textResultado"
         app:srcCompat="@drawable/pedra" />
 
-    <ImageView
-        android:id="@+id/imageView3"
+    <ImageButton
+        android:id="@+id/btnOpcaoPapel"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginTop="36dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:contentDescription="@string/imagem_opcao_papel"
+        android:onClick="jogar"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/btnOpcaoTesoura"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/btnOpcaoPedra"
         app:layout_constraintTop_toBottomOf="@+id/textResultado"
         app:srcCompat="@drawable/papel" />
 
-    <ImageView
-        android:id="@+id/imageView4"
+    <ImageButton
+        android:id="@+id/btnOpcaoTesoura"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginTop="36dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:contentDescription="@string/imagem_opcao_tesoura"
+        android:onClick="jogar"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toEndOf="@+id/btnOpcaoPapel"
         app:layout_constraintTop_toBottomOf="@+id/textResultado"
         app:srcCompat="@drawable/tesoura" />
 </androidx.constraintlayout.widget.ConstraintLayout>
