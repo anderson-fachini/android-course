@@ -1,0 +1,11 @@
+
+{
+java:S1450"`Remove the "seekBarPercentual" field and declare it as a local variable in the relevant methods.(Ú»²ùüÿÿÿÿ
+B
+java:S1659"'Declare "textTotal" on a separate line.(¬ ¤Äÿÿÿÿÿ
+H
+java:S1659"-Declare "textPorcentagem" on a separate line.(¬ ¤Äÿÿÿÿÿ
+œ
+java:S1186("€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ®çâùÿÿÿÿ
+—
+java:S1186-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‰ÁÕ–

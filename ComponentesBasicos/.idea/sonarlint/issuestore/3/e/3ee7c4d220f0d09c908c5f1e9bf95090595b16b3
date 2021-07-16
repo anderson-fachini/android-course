@@ -1,0 +1,26 @@
+
+2
+java:S16436"Use a StringBuilder instead.(ˆµ™û
+C
+java:S1604>"(Make this anonymous inner class a lambda(‡ÿ­”ûÿÿÿÿ
+o
+java:S1450"YRemove the "sexoFemino" field and declare it as a local variable in the relevant methods.(å˜ìì
+r
+java:S1450"\Remove the "sexoMasculino" field and declare it as a local variable in the relevant methods.(å˜ìì
+?
+java:S1659")Declare "checkBranco" on a separate line.(ş‚®
+A
+java:S1659"+Declare "checkVermelho" on a separate line.(ş‚®
+>
+java:S1659"(Declare "sexoFemino" on a separate line.(å˜ìì
+V	java:S125K"<This block of commented-out lines of code should be removed.(ÁÙè¤ûÿÿÿÿ
+A
+java:S1172W"+Remove this unused method parameter "view".(äá®
+V	java:S125Y"<This block of commented-out lines of code should be removed.(ßÓìËûÿÿÿÿ
+V	java:S125["<This block of commented-out lines of code should be removed.(Ùìş†ùÿÿÿÿ
+A
+java:S1172b"+Remove this unused method parameter "view".(Ï“çæ
+G
+java:S1068"1Remove this unused "sexoMasculino" private field.(å˜ìì
+D
+java:S1068".Remove this unused "sexoFemino" private field.(å˜ìì
