@@ -2,6 +2,7 @@ package com.cursoandroid.passandodadosactivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -20,7 +21,16 @@ public class MainActivity extends AppCompatActivity {
         buttonEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+                Intent intent = new Intent(getApplicationContext(), SegundaActivity.class);
+
+                Usuario usuario = new Usuario("Anderson", "anderson.dkfachini@gmail.com");
+
+                // passar dados
+                intent.putExtra("nome", "Anderson");
+                intent.putExtra("idade", 31);
+                intent.putExtra("objeto", usuario);
+
+                startActivity(intent);
             }
         });
     }
