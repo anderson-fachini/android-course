@@ -1,7 +1,5 @@
 
-C
-java:S1604"(Make this anonymous inner class a lambda(ÿ¥×Ìÿÿÿÿÿ
 q
-java:S1450"[Remove the "buttonEnviar" field and declare it as a local variable in the relevant methods.(È€Ã§
-—
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡é††
+java:S1450"[Remove the "buttonEnviar" field and declare it as a local variable in the relevant methods.(È€Ã§
+C
+java:S1604"(Make this anonymous inner class a lambda(ÿ¥×Ìÿÿÿÿÿ

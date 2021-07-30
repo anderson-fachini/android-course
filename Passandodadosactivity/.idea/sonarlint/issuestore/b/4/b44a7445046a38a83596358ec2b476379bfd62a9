@@ -1,0 +1,14 @@
+
+D
+java:S1659
+"'Declare "textIdade" on a separate line.(¬“ü·8ìèãÈ¯/
+u
+java:S1450
+"XRemove the "textIdade" field and declare it as a local variable in the relevant methods.(¬“ü·8ïèãÈ¯/
+t
+java:S1450
+"WRemove the "textNome" field and declare it as a local variable in the relevant methods.(¬“ü·8ğèãÈ¯/
+V
+java:S1854"9Remove this useless assignment to local variable "email".(Ñ»­¤8éãÈ¯/
+G
+java:S1481"*Remove this unused "email" local variable.(Ñ»­¤8›éãÈ¯/
