@@ -1,0 +1,11 @@
+
+B
+java:S1659",Declare "buttonContatos" on a separate line.(Ã à¨
+s
+java:S1450"]Remove the "buttonContatos" field and declare it as a local variable in the relevant methods.(Ã à¨
+t
+java:S1450"^Remove the "buttonConversas" field and declare it as a local variable in the relevant methods.(Ã à¨
+C
+java:S1604&"(Make this anonymous inner class a lambda(ó«Æ„ÿÿÿÿÿ
+E
+java:S16041"(Make this anonymous inner class a lambda(¶ÁÛ¥8õ¤âå±/
